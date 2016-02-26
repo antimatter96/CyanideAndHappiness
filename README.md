@@ -15,8 +15,14 @@ Make sure you have the following packages:
 ```
 
 For Windows based systems use cnh_win.py
+```sh
+> python cnh_win.py
+```
 
 For Linux based systems use cnh_nix.py
+```sh
+$ python cnh_nix.py
+```
 
 ### Upcoming features
 These feautres are currently being worked upon:
