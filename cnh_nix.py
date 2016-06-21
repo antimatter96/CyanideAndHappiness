@@ -14,7 +14,7 @@ while i <= 4225:
 		file_name = 	file_link.split('/')[-1]
 		r2 = requests.get(file_link)
 		if r2.status_code == 200:
-			f = open("cnh\" + str(i) + "___" + file_name, "wb")
+			f = open("cnh\\" + str(i) + "___" + file_name, "wb")
 			f.write(r2.content)
 			f.close()
 		print(url_cnh)	
